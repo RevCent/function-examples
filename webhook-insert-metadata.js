@@ -6,6 +6,8 @@
 // Trigger
 // Webhook
 
+// IP restriction is available
+
 const request = global.request; // Accessing the "request" module from the global object
 
 let webhook_body = JSON.parse(event.data); // event.data is always a string for webhook triggers.
