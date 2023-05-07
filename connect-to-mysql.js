@@ -1,3 +1,17 @@
+// Description
+// In this example, when a new customer is created in RevCent, a record should be inserted into a remote MySQL database. 
+// We use the customer.created event notation. 
+// We get the customer information from the event.data.item_details object, connect to a remote MySQL database and insert a customer row.
+
+// Trigger
+// Account Event
+
+// Event
+// customer.created
+
+// Item Type
+// Customer
+
 const mysql = global.mysql; // Accessing the "mysql" module from the global object
 const customer_details = event.data.item_details; // Getting the customer details
 
