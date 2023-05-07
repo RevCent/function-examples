@@ -4,6 +4,8 @@
 // Trigger
 // Flow
 
+// Flow Docs: https://kb.revcent.com/en/tools/flows
+
 const client = global['mailchimp-marketing'];
 
 let api_key = process.env.api_key; // process.env properties are environment variables you should have already created
