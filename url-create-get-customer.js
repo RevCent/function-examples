@@ -8,7 +8,8 @@
 // Function Url
 
 
-// Function URL Request: POST https://functions.revcent.com/[URL_UUID]
+// Function URL Request: POST https://functions.revcent.com/[FUNCTION_URL_UUID]
+// IP restriction is available
 
 // Example URL POST Body
 //  {
