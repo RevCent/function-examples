@@ -5,6 +5,8 @@
 // Trigger
 // Flow
 
+// Flow Docs: https://kb.revcent.com/en/tools/flows
+
 // Twilio account must be in live status, not trial
 
 const Twilio = global.twilio; // Accessing the "twilio" module from the global object
