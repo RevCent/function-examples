@@ -4,6 +4,8 @@
 // Trigger
 // Flow
 
+// Flow Docs: https://kb.revcent.com/en/tools/flows
+
 const request = global['request']; // Accessing the "request" module from the global object
 
 
