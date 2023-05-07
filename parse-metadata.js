@@ -1,5 +1,7 @@
 // Description
-// In this example, we want to notify an affiliate network of a sale for a specific affiliate ID. We previously passed the affiliate ID as a metadata variable when creating the sale. We use the Lodash module to find the affiliate ID within the sale metadata, and pass the sale amount and affiliate ID to the network.
+// In this example, we want to notify an affiliate network of a sale for a specific affiliate ID. 
+// We previously passed the affiliate ID as a metadata variable when creating the sale. 
+// We use the Lodash module to find the affiliate ID within the sale metadata, and pass the sale amount and affiliate ID to the network.
 
 // Trigger
 // Account Event
