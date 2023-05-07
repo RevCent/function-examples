@@ -4,6 +4,8 @@
 // Trigger
 // Flow
 
+// Flow Docs: https://kb.revcent.com/en/tools/flows
+
 const request = global['request'];
 
 let active_campaign_api_token = process.env.active_campaign_api_token; // process.env properties are environment variables you should have already created
