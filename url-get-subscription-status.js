@@ -7,6 +7,7 @@
 // Function Url
 
 // Function URL Request: GET https://functions.revcent.com/[URL_UUID]?subscription_id=[SUB_ID]
+// IP restriction is available
 
 const request = global.request; // Accessing the "request" module from the global object
 
