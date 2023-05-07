@@ -14,7 +14,7 @@
 
 const {
     WebClient
-} = global['@slack/web-api'];
+} = global['@slack/web-api']; // Accessing the "@slack/web-api" module from the global object
 
 
 const token = process.env.slack_token; // process.env properties are environment variables you should have already created
