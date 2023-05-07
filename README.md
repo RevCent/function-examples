@@ -1,6 +1,6 @@
 # Function Examples
 
-Code examples for RevCent Custom Functions: https://kb.revcent.com/en/integrations/functions
+Code examples for RevCent Functions: https://kb.revcent.com/en/integrations/functions
 
 Files are prefixed with the following: 
 
