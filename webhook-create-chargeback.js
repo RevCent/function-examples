@@ -5,6 +5,7 @@
 // Trigger
 // Webhook
 
+// IP restriction is available
 
 const request = global.request; // Accessing the "request" module from the global object
 
