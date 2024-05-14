@@ -24,13 +24,13 @@
 
 let chat_id = -12345678; // From telegram instructions.
 let bot_token = process.env.bot_token; // The bot token should be an environment variable.
-let ai_response = event.data.ai_request.ai_content; // AI response from AI assistant, which then triggered the function.
+let custom_arguments = event.data.ai_data.custom_arguments; // Custom arguments from the AI Assistant custom action which triggered the function.
 let request = global.request;
 request.post({
     headers: {
         'content-type': 'application/x-www-form-urlencoded'
     },
-    body: 'chat_id=' + chat_id + '&text=messaging from RevCent function. Here are the AI results: ' + ai_response,
+    body: 'chat_id=' + chat_id + '&text=messaging from RevCent function. Here are the AI results: ' + custom_arguments.ascii_table,
     url: 'https://api.telegram.org/bot' + bot_token + '/sendMessage'
 }, function(error, response, body) {
     callback(null, 'OK')
