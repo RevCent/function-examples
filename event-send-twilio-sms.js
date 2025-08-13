@@ -14,6 +14,7 @@
 
 // Twilio account must be in live status, not trial
 
+
 const Twilio = global.twilio; // Accessing the "twilio" module from the global object
 
 const sale_details = event.data.item_details; // Getting the sale details
