@@ -1,7 +1,0 @@
-# Logs
-logs
-.DS_Store
-*.log
-*.zip
-node_modules
-node_modules/
