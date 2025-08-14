@@ -21,7 +21,6 @@
 // Chat id : -xxxxxxxxxx
 
 
-
 let chat_id = -12345678; // From telegram instructions.
 let bot_token = process.env.bot_token; // The bot token should be an environment variable.
 let custom_arguments = event.data.custom_arguments; // Custom arguments from the AI Assistant
